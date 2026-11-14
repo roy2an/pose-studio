@@ -1,0 +1,37 @@
+{
+  "name": "pose-editor",
+  "version": "1.0.0",
+  "description": "Vue 3 + Three.js 角色姿势编辑器",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify.mjs",
+    "verify:ui": "node scripts/semantic-ui-check.mjs",
+    "audit:presets": "node scripts/preset-audit.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "shots": "node scripts/shots.mjs",
+    "verify:shell": "node scripts/ui-check.mjs",
+    "verify:rig": "node scripts/rig-check.mjs"
+  },
+  "keywords": [
+    "three.js",
+    "vue",
+    "pose",
+    "skeleton",
+    "character"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.187.0",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.11",
+    "playwright": "^1.65.0",
+    "vite": "^8.3.8"
+  },
+  "type": "module"
+}
