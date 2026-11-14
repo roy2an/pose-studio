@@ -2,6 +2,8 @@
 
 [中文](README.md) | English
 
+![Pose Studio interface](shotscreen.png)
+
 A real-time character pose editor built with **Vue 3 + Three.js**. Bones are not edited through X/Y/Z values — you edit them semantically as "joint + motion" (`leftShoulder.spread`, `leftElbow.bend`, …), and 23 pose presets are ready to apply.
 
 The pose algorithm is identical to **storyai-3d-director-desk-main**: with the same `controls` and the same model, both projects produce bone-for-bone identical poses (`npm run verify:rig` measures a maximum deviation of 0.0007°, i.e. the rounding precision of the bind snapshot).

@@ -2,6 +2,8 @@
 
 中文 | [English](README.en.md)
 
+![Pose Studio 界面截图（英文版）](shotscreen.png)
+
 基于 **Vue 3 + Three.js** 的实时角色姿势编辑器。骨骼不按 X/Y/Z 编辑，而是按「关节 + 动作」的语义方式编辑（`leftShoulder.spread`、`leftElbow.bend`……），并内置 23 个可直接套用的姿势预设。
 
 姿势算法与 **storyai-3d-director-desk-main** 完全一致：同一份 `controls`、同一个模型，两个项目摆出来的骨骼姿态逐位相同（`npm run verify:rig` 实测最大偏差 0.0007°，即绑定快照的取整精度）。
